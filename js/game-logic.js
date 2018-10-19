@@ -1,16 +1,15 @@
-let playerOneMoveOneType;
-let playerOneMoveTwoType;
-let playerOneMoveThreeType;
-let playerTwoMoveOneType;
-let playerTwoMoveTwoType;
-let playerTwoMoveThreeType;
-
-let playerOneMoveOneValue;
-let playerOneMoveTwoValue;
-let playerOneMoveThreeValue;
-let playerTwoMoveOneValue;
-let playerTwoMoveTwoValue;
-let playerTwoMoveThreeValue;
+let playerOneMoveOneType,
+  playerOneMoveTwoType,
+  playerOneMoveThreeType,
+  playerTwoMoveOneType,
+  playerTwoMoveTwoType,
+  playerTwoMoveThreeType,
+  playerOneMoveOneValue,
+  playerOneMoveTwoValue,
+  playerOneMoveThreeValue,
+  playerTwoMoveOneValue,
+  playerTwoMoveTwoValue,
+  playerTwoMoveThreeValue;
 
 const ROCK = 'rock';
 const PAPER = 'paper';
