@@ -142,18 +142,18 @@ const getGameWinner = () => {
   addWin(winnerRoundThree);
 
   if (playerOneWins > playerTwoWins) {
-    return 'Player One';
+    return P1;
   } else if (playerTwoWins > playerOneWins) {
-    return 'Player Two';
+    return P2;
   } else {
-    return 'Tie';
+    return TIE;
   }
 };
 
 const addWin = (winner) => {
-  if (winner === 'Player One') {
+  if (winner === P1) {
     playerOneWins = (playerOneWins + 1) || 1;
-  } else if (winner === 'Player Two') {
+  } else if (winner === P2) {
     playerTwoWins = (playerTwoWins + 1) || 1;
   }
 };
