@@ -11,13 +11,16 @@ let playerOneMoveOneType,
   playerTwoMoveTwoValue,
   playerTwoMoveThreeValue;
 
+
 const ROCK = 'rock';
 const PAPER = 'paper';
 const SCISSORS = 'scissors';
 
+
 const P1 = 'Player One';
 const P2 = 'Player Two';
 const TIE = 'Tie';
+
 
 const setPlayerMoves = (player, m1, v1, m2, v2, m3, v3) => {
   // Check that all values are provided
@@ -121,6 +124,7 @@ const getMoveWinner = (p1moveType, p1moveValue, p2moveType, p2moveValue) => {
   }
 };
 
+
 const getGameWinner = () => {
   if (!playerOneMoveOneType || !playerOneMoveTwoType || !playerOneMoveThreeType || 
       !playerTwoMoveOneType || !playerTwoMoveTwoType || !playerTwoMoveThreeType ||
@@ -150,6 +154,7 @@ const getGameWinner = () => {
   }
 };
 
+
 const addWin = (winner) => {
   if (winner === P1) {
     playerOneWins = (playerOneWins + 1) || 1;
@@ -157,6 +162,7 @@ const addWin = (winner) => {
     playerTwoWins = (playerTwoWins + 1) || 1;
   }
 };
+
 
 const setComputerMoves = () => {
   const moves = ['rock', 'paper', 'scissors'];
